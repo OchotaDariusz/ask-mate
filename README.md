@@ -1,4 +1,4 @@
-# AskMate (sprint 3)
+# AskMate (3 sprints - 1 sprint = 4 days)
 
 ## Setup
 
