@@ -250,6 +250,7 @@ h1, h2, h3 {
     border-radius: 5px;
     display: inline-block;
 }
+
 .btn-primary {
     background-color: rgba(50, 51, 122, 0.68) !important;
     border-color: rgba(50, 51, 122, 0.37) !important;
@@ -389,6 +390,7 @@ a.btn:hover {
     color: #32337A;
     font-family: 'Poppins', sans-serif;
 }
+
 .registration:hover {
     color: rgb(215, 140, 140);
 }
@@ -494,7 +496,7 @@ tr:nth-child(even) {
     position: fixed;
     background-color: #EFE7E3;
     min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 10px;
 }

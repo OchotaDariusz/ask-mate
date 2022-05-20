@@ -1,4 +1,3 @@
-// you receive an array of objects which you must sort in the by the key "sortField" in the "sortDirection"
 function getSortedItems(items, sortField, sortDirection) {
     function compare(a, b) {
         let elementA = isNaN(a[sortField]) ? a[sortField] : Number(a[sortField]);
@@ -12,14 +11,6 @@ function getSortedItems(items, sortField, sortDirection) {
         return 0;
     }
 
-    console.log(items)
-    console.log(sortField)
-    console.log(sortDirection)
-
-    // === SAMPLE CODE ===
-    // if you have not changed the original html uncomment the code below to have an idea of the
-    // effect this function has on the table
-    //
     if (sortDirection === "asc") {
         items.sort(compare);
     } else {

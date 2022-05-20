@@ -305,8 +305,6 @@ def register():
 
 @app.route('/login')
 def show_login_form():
-    if util.user_logged_in():
-        return redirect(url_for('index'))
     session['url'] = request.referrer
     return render_template('login.html')
 
