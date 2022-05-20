@@ -28,7 +28,7 @@
             <br>
             {% if question['image'] %}
                 <img src="{{ url_for('send_question_image', question_id=question['id']) }}" alt="image"
-                     height="200">
+                     style="max-height: 200px;">
             {% endif %}
             <br><br>
 
